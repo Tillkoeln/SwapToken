@@ -42,8 +42,8 @@ CBigNum bnProofOfWorkLimitTestNet(~uint256(0) >> 16);
 static CBigNum bnProofOfStakeLimitTestNet(~uint256(0) >> 16);
 
 unsigned int nWorkTargetSpacing = 30; // 1 minutes per block
-unsigned int nStakeTargetSpacing = 15; // 15 seconds
-unsigned int nStakeMinAge = 7 * 24 * 60 * 60; // 4 hours
+unsigned int nStakeTargetSpacing = 60; // 15 seconds
+unsigned int nStakeMinAge = 2 * 24 * 60 * 60; // 4 hours
 unsigned int nStakeMaxAge = -1; // unlimited
 unsigned int nModifierInterval = 10 * 60; // time to elapse before new modifier is computed
 
@@ -810,7 +810,7 @@ int CMerkleTx::GetBlocksToMaturity() const
 {
     if (!(IsCoinBase() || IsCoinStake()))
         return 0;
-    return max(0, (nCoinbaseMaturity+1440) - GetDepthInMainChain());
+    return max(0, (nCoinbaseMaturity+10) - GetDepthInMainChain());
 }
 
 
