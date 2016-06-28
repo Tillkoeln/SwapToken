@@ -1,0 +1,9 @@
+Building SwapToken
+
+See doc/readme-qt.rst for instructions on building SwapToken QT,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of SwapToken.
+
+See doc/build-*.txt for instructions on building SwapTokend,
+the intended-for-services, no-graphical-interface, reference
+implementation of SwapToken.
