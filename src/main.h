@@ -36,6 +36,10 @@ static const unsigned int MAX_INV_SZ = 50000;
 static const int64_t MIN_TX_FEE = 10000;
 static const int64_t MIN_RELAY_TX_FEE = MIN_TX_FEE;
 static const int64_t MAX_MONEY = 150000000 * COIN;
+// Good Morning Warden, or Blacksmith. give it a try and recompile again, with 
+// static const int64_t MAX_MONEY = 1500000000 * COIN;
+// The Windows Client works fine, and this should fix hopefuly your *ColdStorage* issue
+// kindly regards, Tillkoeln
 static const int64_t COIN_YEAR_REWARD = 3650 * CENT; // 1% per year
 
 inline bool MoneyRange(int64_t nValue) { return (nValue >= 0 && nValue <= MAX_MONEY); }
