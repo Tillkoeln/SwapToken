@@ -1,6 +1,18 @@
+preparing incoming update,
 
-SwapToken development tree
+ForkDate:
 
-SwapToken is a PoS-based cryptocurrency.
+SwapRatio:
 
+Delegated Proof of Stake Ratio:
 
+AutomaticSwap
+
+-Yobit
+-Nova
+
+Updates,
+
+-Coinmarketcaps
+
+ClientDownload
