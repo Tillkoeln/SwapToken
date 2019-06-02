@@ -1,3 +1,35 @@
+SwapTokenReloaded,  the Original !
+
+https://bitcointalk.org/index.php?topic=5149957.msg51318742#msg51318742
+
+Thank You for your Atention
+
+
+Downloads  https://github.com/Tillkoeln/SwapToken.Reloaded/releases
+
+Git https://github.com/Tillkoeln/SwapToken.Reloaded
+
+Patchnotes  https://github.com/Tillkoeln/SwapToken.Reloaded/blob/master/patchnotes
+
+README https://github.com/Tillkoeln/SwapToken.Reloaded/blob/master/README.md
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Hallo Yobit 
 
 please upload somewhere your blk0001.dat
